@@ -1,0 +1,7 @@
+{
+  "name": "@literat/js-tooling",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module"
+}

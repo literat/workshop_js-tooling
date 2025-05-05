@@ -1,0 +1,20 @@
+{
+  "name": "@literat/workshop-js-tools-webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "hello": "echo \"hello world\"",
+    "rmrf": "rm -rf ./build",
+    "cleanup": "rimraf ./build",
+    "prebuild": "npm run cleanup",
+    "build": "webpack --config ./webpack.config.js",
+    "prod": "npm run build -- --mode=production",
+    "dev": "npm run build -- --mode=development",
+    "start": "if-env NODE_ENV=production && npm run prod || npm run dev"
+  },
+  "devDependencies": {
+    "if-env": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

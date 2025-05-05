@@ -1,0 +1,10 @@
+{
+  "name": "@literat/workshop-js-tools-webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc index.ts --outDir build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

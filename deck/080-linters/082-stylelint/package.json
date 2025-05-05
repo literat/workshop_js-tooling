@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "lint:css": "stylelint '**/*.css' --fix",
+    "lint:css:check": "stylelint '**/*.css'"
+  },
+  "devDependencies": {
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^14.0.0"
+  }
+}
